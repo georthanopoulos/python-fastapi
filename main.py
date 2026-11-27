@@ -5,5 +5,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-async def home():
+async def hello():
     return {"message": "Hello, Coding Factory"}
